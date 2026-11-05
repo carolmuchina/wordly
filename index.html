@@ -17,6 +17,7 @@
                 <h2>Find New Words</h2>
         <form id="searchForm">
             <input 
+            aria-label="Enter a word to search"
              type="text"
              id="wordInput"
              placeholder="Enter a word..."
@@ -25,9 +26,9 @@
             <button type="submit">search</button>
         </form>
      </section>
-     <section id="results">
+     <section id="results" aria-live="polite">
         <div id="wordDetails"></div>
-        <audio id="audio"></audio>
+        <audio id="audio" controls></audio>
      </section>
         </main>
         <footer>

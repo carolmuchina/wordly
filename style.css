@@ -30,6 +30,26 @@ button {
     cursor: pointer;
     background-color: blue;
 }
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+#wordDetails {
+    margin-top: 40px;
+    text-align: center;
+    line-height: 1.6;
+}
+.key {
+    color:green;
+    font-weight: bold;
+}
+.pronunciation {
+    color: brown;
+    margin: 0 8px;
+}
+.value {
+    color:grey;
+}
 footer {
     text-align: center;
     padding: 40px;

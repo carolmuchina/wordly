@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:aliceblue;
+    color:black;
+}
+header {
+    text-align: center;
+    padding: 40px;
+}
+main {
+    width: 90%;
+    max-width: 600%;
+    margin: 40px auto;
+    padding: 30px;
+}
+form {
+    display: flex;
+    gap: 10px;
+}
+input {
+    flex: 1;
+    padding: 12px;
+}
+button {
+    padding: 12px 20px;
+    cursor: pointer;
+    background-color: blue;
+}
+footer {
+    text-align: center;
+    padding: 40px;
+}
